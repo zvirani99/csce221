@@ -1,0 +1,1365 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{babel}
+\end_preamble
+\use_default_options false
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding iso8859-15
+\fontencoding T1
+\font_roman "times" "default"
+\font_sans "helvet" "default"
+\font_typewriter "courier" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 0
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 0
+\use_package mathtools 0
+\use_package mhchem 0
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 1in
+\topmargin 1in
+\rightmargin 1in
+\bottommargin 1in
+\headheight 0in
+\headsep 0in
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size larger
+Assignment 1 – A Collection Class 
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+Objectives: 
+\emph on
+This assignment gives you some experience with designing and writing C++
+ classes using 
+\begin_inset Quotes eld
+\end_inset
+
+big five
+\begin_inset Quotes erd
+\end_inset
+
+ (see the textbook), operator overloading, exception, and templates.
+ Also you will learn how to use the command line interface (CLI) and makefiles.
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+(5 points) Create a file, called README (Template provided as \SpecialChar LyX
+ file.
+ You are free to use any software but stick to the format given in the templated
+ file):
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Itemize
+Your First Name, Last Name, UIN, Section Number, User Name, E-mail address
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+State the Aggie Honor statement:
+\end_layout
+
+\begin_deeper
+\begin_layout Plain Layout
+\begin_inset Box Boxed
+position "t"
+hor_pos "l"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "80col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\begin_inset VSpace medskip
+\end_inset
+
+ I certify that I have listed all the sources that I used to develop the
+ solutions and code to the submitted work.
+\end_layout
+
+\begin_layout Quotation
+\noindent
+
+\emph on
+On my honor as an Aggie, I have neither given nor received any unauthorized
+ help on this academic work
+\emph default
+.
+\end_layout
+
+\begin_layout Plain Layout
+Your Name
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+Date 
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+List any resources used such as webpages (provide URL).
+ Do not mention the textbook and discussions with the Instructor, TA, or
+ Peer Teachers.
+ 
+\end_layout
+
+\begin_layout Itemize
+List any known problems with the assignment you are turning in.
+ For example, if you know your code does not run correctly, state that.
+ This should be a short explanation.
+ 
+\end_layout
+
+\begin_layout Itemize
+Provide a short description for the solution or pseudocode.
+ 
+\end_layout
+
+\begin_layout Itemize
+Provide screenshots of two testcases (from Computer Science Linux machine)
+ and show how you compiled the program (Ex: Command Line and IDE).
+\end_layout
+
+\end_deeper
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Submit to Canvas an electronic version of the file README by February 12.
+ 
+\end_layout
+
+\begin_layout Itemize
+Test the C++ programs on your Computer Science Linux machine.
+\end_layout
+
+\begin_layout Itemize
+The assignment will be graded focusing on: program design, correctness.
+ 
+\end_layout
+
+\begin_layout Itemize
+You will be given a .zip file containing 
+\family typewriter
+Collection.cpp, Stress_ball.cpp, Collection.h, Stress_ball.h, main.cpp, makefile,
+ Stress_ball1.data 
+\family default
+and
+\family typewriter
+ Stress_ball2.data
+\family default
+ files.
+ Implement the methods given in 
+\family typewriter
+Collection.h
+\family default
+ and complete 
+\family typewriter
+Collection.cpp.
+
+\family default
+ From PA-1 Part 1 reuse the file, 
+\family typewriter
+Stress_ball.h
+\family default
+ and
+\family typewriter
+ Stress_ball.cpp
+\family default
+.
+ If you had not created 
+\family typewriter
+Stress_ball.h
+\family default
+ in PA1-Part 1, you will have to create one because 
+\family typewriter
+Collection.cpp
+\family default
+ will make use of 
+\family typewriter
+Stress_ball.cpp 
+\family default
+methods.
+\end_layout
+
+\begin_layout Itemize
+Use 
+\family typewriter
+main.cpp
+\family default
+ to test your implementation.
+ When your program works correctly, upload only 
+\family typewriter
+\series bold
+Collection.cpp, Stress_ball.cpp
+\family default
+ 
+\series default
+and
+\series bold
+ 
+\family typewriter
+makefile
+\family default
+\series default
+ to Mimir Classroom by February 12th where your program will be tested against
+ TA's test cases.
+ 
+\series bold
+Do not upload any other file.
+ Do not use main() function in
+\series default
+ 
+\family typewriter
+\series bold
+Collection.cpp or Stress_ball.cpp.
+ 
+\family default
+Do not remove the header files included in 
+\family typewriter
+Collection.cpp or Stress_ball.cpp.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\align center
+
+\series bold
+\size larger
+Problem Description – Part 2 (100 pts)
+\series default
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\noindent
+(35 points) The class 
+\family typewriter
+Collection
+\family default
+ defines a collection as an array that can be automatically resized as necessary
+ using dynamically allocated arrays.
+
+\series bold
+ 
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\emph on
+
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "50text%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\noindent
+
+\series bold
+\emph on
+You are not allowed to use the STL class vector.
+
+\series default
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+There is a class 
+\family typewriter
+Collection
+\family default
+ which uses the class 
+\family typewriter
+Stress_ball
+\family default
+.
+ The collection holds stress balls of different colors and sizes (see Part
+ 1) and can contain many stress balls of the same color and size.
+ The class 
+\family typewriter
+Collection
+\family default
+ should have three private members:
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\family typewriter
+Stress_ball *array; //pointer to dynamically allocated memory
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+int size; //logical size of array - the number of elements (Stress_balls)
+ in use
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+int capacity; //physical size of array
+\end_layout
+
+\begin_layout Standard
+Note that 
+\family typewriter
+size
+\family default
+ <= 
+\family typewriter
+capacity
+\family default
+.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+These are the following functions defined for a collection: 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+constructor with no arguments, 
+\family typewriter
+size
+\family default
+ and 
+\family typewriter
+capacity
+\family default
+ are 
+\family typewriter
+0
+\family default
+, and 
+\family typewriter
+array
+\family default
+ is 
+\family typewriter
+nullptr
+\family default
+.
+\end_layout
+
+\begin_layout Itemize
+constructor with one argument which is the required capacity of the collection.
+ The 
+\family typewriter
+array
+\family default
+ should also be allocated memory equal to the capacity if this constructor
+ is used.
+\end_layout
+
+\begin_layout Itemize
+copy constructor – makes a copy of a collection.
+\end_layout
+
+\begin_layout Itemize
+copy assignment – overwrites an exiting collection by another collection
+ 
+\end_layout
+
+\begin_layout Itemize
+destructor – destroys a collection (deallocates allocated memory, set to
+ zero 
+\family typewriter
+size
+\family default
+ and 
+\family typewriter
+capacity
+\family default
+)
+\end_layout
+
+\begin_layout Itemize
+move constructor – efficiently creates a new collection from an existing
+ one
+\end_layout
+
+\begin_layout Itemize
+move assignment – efficiently copies a collection during an assignment 
+\end_layout
+
+\begin_layout Itemize
+insert a stress ball to the collection: 
+\family typewriter
+
+\begin_inset Newline newline
+\end_inset
+
+void insert_item(const Stress_ball& sb);
+\family default
+ 
+\begin_inset Newline newline
+\end_inset
+
+If the collection is full, increase the array by doubling its capacity.
+ Use the private helper function 
+\family typewriter
+resize()
+\family default
+ to complete this task.
+ The function 
+\family typewriter
+resize()
+\family default
+ should double the capacity of the array and correctly copy elements from
+ the old array to a new array.
+ 
+\end_layout
+
+\begin_layout Itemize
+check if a stress ball of a given color and size is in the collection; return
+ true if it is there and false otherwise:
+\begin_inset Newline newline
+\end_inset
+
+
+\family typewriter
+bool contains(const Stress_ball& sb) const;
+\family default
+ 
+\end_layout
+
+\begin_layout Itemize
+remove and return a random stress ball (you have no control which stress
+ ball is selected):
+\begin_inset Newline newline
+\end_inset
+
+
+\family typewriter
+Stress_ball remove_any_item();
+\family default
+ 
+\begin_inset Newline newline
+\end_inset
+
+Do not decrease the capacity of the array.
+ Also, be sure that there are no gaps between elements of the array.
+ Throw an exception if the collection is already empty.
+ 
+\end_layout
+
+\begin_layout Itemize
+remove a stress ball with a specific color and size from the collection:
+\begin_inset Newline newline
+\end_inset
+
+
+\family typewriter
+void remove_this_item(const Stress_ball& sb);
+\family default
+ 
+\begin_inset Newline newline
+\end_inset
+
+Do not decrease the capacity of the array.
+ Also, be sure that there are no gaps between elements of the array.
+ Throw an exception if the collection is already empty.
+ 
+\end_layout
+
+\begin_layout Itemize
+make the collection empty (deallocate allocated memory, set to zero 
+\family typewriter
+size
+\family default
+ and 
+\family typewriter
+capacity
+\family default
+):
+\begin_inset Newline newline
+\end_inset
+
+
+\family typewriter
+void make_empty();
+\end_layout
+
+\begin_layout Itemize
+check if the collection is empty; return true if it is empty and false otherwise
+: 
+\family typewriter
+
+\begin_inset Newline newline
+\end_inset
+
+bool is_empty() const;
+\family default
+ 
+\end_layout
+
+\begin_layout Itemize
+return the total number of stress balls in the collection:
+\family typewriter
+
+\begin_inset Newline newline
+\end_inset
+
+int total_items() const;
+\family default
+ 
+\end_layout
+
+\begin_layout Itemize
+return the number of stress balls of the same size in the collection:
+\begin_inset Newline newline
+\end_inset
+
+
+\family typewriter
+int total_items(Stress_ball_sizes s) const;
+\family default
+ 
+\end_layout
+
+\begin_layout Itemize
+return the number of stress balls of the same color in the collection:
+\begin_inset Newline newline
+\end_inset
+
+
+\family typewriter
+int total_items(Stress_ball_colors t) const;
+\family default
+ 
+\end_layout
+
+\begin_layout Itemize
+print all the stress balls in the collection (print color and size of a
+ stress ball, see the class 
+\family typewriter
+Stress_ball
+\family default
+): 
+\begin_inset Newline newline
+\end_inset
+
+
+\family typewriter
+void print_items() const;
+\family default
+ 
+\begin_inset Newline newline
+\end_inset
+
+The format has to be
+\family typewriter
+:
+\begin_inset Newline newline
+\end_inset
+
+(color, size
+\family default
+)
+\family typewriter
+
+\begin_inset Newline newline
+\end_inset
+
+(color, size)
+\begin_inset Newline newline
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+(color, size)
+\family default
+
+\begin_inset Newline newline
+\end_inset
+
+For example, output should look like, 
+\family typewriter
+
+\begin_inset Newline newline
+\end_inset
+
+(red, small)
+\begin_inset Newline newline
+\end_inset
+
+(blue, medium)
+\begin_inset Newline newline
+\end_inset
+
+(yellow, large)
+\begin_inset Newline newline
+\end_inset
+
+(blue, large)
+\family default
+
+\begin_inset Newline newline
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+.
+\family typewriter
+(green, medium)
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+To directly access a stress ball in a collection, overload 
+\family typewriter
+operator[]
+\family default
+.
+ It will access a stress ball in 
+\family typewriter
+array
+\family default
+ at position 
+\family typewriter
+i
+\family default
+ where 
+\family typewriter
+i
+\family default
+ starts from 
+\family typewriter
+0
+\family default
+ through 
+\family typewriter
+size-1:
+\begin_inset Newline newline
+\end_inset
+
+Stress_ball& operator[](int i);
+\family default
+ 
+\end_layout
+
+\begin_layout Enumerate
+To directly access a stress ball in a 
+\family typewriter
+const
+\family default
+ collection, overload 
+\family typewriter
+operator[]
+\family default
+.
+ It will have the exact same body as the above overload, but the function
+ header should read:
+\begin_inset Newline newline
+\end_inset
+
+
+\family typewriter
+const Stress_ball& operator[](int i) const;
+\family default
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "l"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100text%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+
+\series bold
+The C++ program must be submitted to Mimir Classroom and the README file
+ must be submitted to Canvas by February 12th.
+ You should test all the implemented functions/operators of this class.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+\noindent
+(45 points) Add these functions for manipulating collections.
+ They are 
+\emph on
+not
+\emph default
+ part of the class 
+\family typewriter
+Collection
+\family default
+.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+input operator (reading from a file):
+\begin_inset Newline newline
+\end_inset
+
+
+\family typewriter
+istream& operator>>(istream& is, Collection& c);
+\family default
+
+\begin_inset Newline newline
+\end_inset
+
+reads from the 
+\family typewriter
+istream
+\family default
+ 
+\family typewriter
+is
+\family default
+ pairs in this format: color size (no parentheses or colons, use space to
+ separate them).
+ As colors use strings (you can use STL class 
+\family typewriter
+string
+\family default
+ here): red, blue, yellow, green, and as sizes use strings: small, medium,
+ large.
+ Data is read from an input file in
+\family typewriter
+ main.cpp
+\family default
+ and it is passed to 
+\family typewriter
+istream
+\family default
+ 
+\family typewriter
+is
+\family default
+.
+ Sample input files are also provided.
+\end_layout
+
+\begin_layout Itemize
+output operator:
+\begin_inset Newline newline
+\end_inset
+
+
+\family typewriter
+ostream& operator <<(ostream& os, const Collection& c);
+\family default
+
+\begin_inset Newline newline
+\end_inset
+
+prints to the 
+\family typewriter
+ostream
+\family default
+ 
+\family typewriter
+os
+\family default
+ all the collection items in format: (color, size), each in one line.
+ Use 
+\family typewriter
+cout
+\family default
+ for output.
+\end_layout
+
+\begin_layout Itemize
+a union operation that combines the contents of two collections into a third
+ collection (the contents of 
+\family typewriter
+c1
+\family default
+ and 
+\family typewriter
+c2
+\family default
+ are not changed):
+\begin_inset Newline newline
+\end_inset
+
+
+\family typewriter
+Collection make_union(const Collection& c1, const Collection& c2);
+\family default
+ 
+\end_layout
+
+\begin_layout Itemize
+a swap operation that swaps two collections:
+\begin_inset Newline newline
+\end_inset
+
+
+\family typewriter
+void swap(Collection& c1, Collection& c2);
+\family default
+ 
+\begin_inset Newline newline
+\end_inset
+
+Use the move constructor and move assignment to do this.
+ Do not copy the collection elements.
+ 
+\end_layout
+
+\begin_layout Itemize
+A sort function that sorts the collection with respect to the size of its
+ elements (
+\family typewriter
+small
+\family default
+ < 
+\family typewriter
+medium
+\family default
+ < 
+\family typewriter
+large
+\family default
+):
+\begin_inset Newline newline
+\end_inset
+
+
+\family typewriter
+void sort_by_size(Collection& c, Sort_choice sort);
+\begin_inset Newline newline
+\end_inset
+
+
+\family default
+Then elements will be sorted with respect to their size in 
+\family typewriter
+array
+\family default
+ (we do not sort them with respect to color).
+ You need to implement 3 different sorting algorithms (do not use the STL
+ 
+\family typewriter
+sort
+\family default
+): bubble sort, insertion sort, and selection sort.
+ Here is the enum class 
+\family typewriter
+Sort_choice
+\family default
+:
+\begin_inset Newline newline
+\end_inset
+
+
+\family typewriter
+enum class Sort_choice { bubble_sort, insertion_sort, selection_sort };
+\begin_inset Newline newline
+\end_inset
+
+
+\family default
+Use 
+\family typewriter
+switch
+\family default
+ statement to choose the required one.
+ You need to test all three sort functions.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+(15 points) You are given a skeleton 
+\family typewriter
+makefile
+\family default
+.
+ Complete it and upload the same.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+
+\family typewriter
+test
+\family default
+
+\begin_inset Quotes erd
+\end_inset
+
+ is the name of executable file that is used in the 
+\family typewriter
+makefile.
+
+\family default
+ Please do not change this.
+ Your files (
+\family typewriter
+Collection.cpp, Stress_ball.cpp
+\family default
+ and 
+\family typewriter
+makefile
+\family default
+) will be tested against a 
+\family typewriter
+main.cpp
+\family default
+ on Mimir.
+ Hence, do not upload your 
+\family typewriter
+main.cpp.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "l"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100text%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+
+\series bold
+The C++ program must be submitted to Mimir Classroom and the README file
+ must be submitted to Canvas by February 12th.
+ You should test all the implemented functions/operators of this class.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_body
+\end_document

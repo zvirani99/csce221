@@ -1,0 +1,333 @@
+%% LyX 2.3.3 created this file.  For more info, see http://www.lyx.org/.
+%% Do not edit unless you really know what you are doing.
+\documentclass[english]{article}
+\usepackage[latin1]{inputenc}
+\usepackage{geometry}
+\geometry{verbose,tmargin=1in,bmargin=1in,lmargin=1in,rmargin=1in,headheight=0in,headsep=0in}
+\synctex=-1
+\usepackage{color}
+\usepackage{babel}
+\usepackage[unicode=true]
+ {hyperref}
+
+\makeatletter
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% LyX specific LaTeX commands.
+%% Because html converters don't know tabularnewline
+\providecommand{\tabularnewline}{\\}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Textclass specific LaTeX commands.
+\newenvironment{lyxcode}
+	{\par\begin{list}{}{
+		\setlength{\rightmargin}{\leftmargin}
+		\setlength{\listparindent}{0pt}% needed for AMS classes
+		\raggedright
+		\setlength{\itemsep}{0pt}
+		\setlength{\parsep}{0pt}
+		\normalfont\ttfamily}%
+	 \item[]}
+	{\end{list}}
+
+\makeatother
+
+\begin{document}
+\begin{center}
+\textbf{\large{}CSCE 221 Cover Page}\\
+\bigskip{}
+\par\end{center}
+
+First Name~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Last
+Name ~~~~~~~~~~~~~~~~~~~~~~~~UIN~~~~~~~~~~~~~~\bigskip{}
+
+User Name ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~E-mail
+address~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\medskip{}
+
+Please list all sources in the table below including web pages which
+you used to solve or implement the current homework. If you fail to
+cite sources you can get a lower number of points or even zero, read
+more on Aggie Honor System Office website: \texttt{\href{http://aggiehonor.tamu.edu/}{http://aggiehonor.tamu.edu/}}\medskip{}
+\medskip{}
+
+\noindent \begin{flushleft}
+\begin{tabular}{|c|c|c|c|c|}
+\hline 
+Type of sources  & ~~~~~~~~~~~~~~~~~~~~~~~ & ~~~~~~~~~~~~~~~~~~~~~~~~ & ~~~~~~~~~~~~~~~~~~~~~~~ & ~~~~~~~~~~~~~~~~~~~~~~~\tabularnewline
+ &  &  &  & \tabularnewline
+\hline 
+People &  &  &  & \tabularnewline
+ &  &  &  & \tabularnewline
+\hline 
+Web pages (provide URL)  &  &  &  & \tabularnewline
+ &  &  &  & \tabularnewline
+\hline 
+Printed material &  &  &  & \tabularnewline
+ &  &  &  & \tabularnewline
+\hline 
+Other Sources  &  &  &  & \tabularnewline
+ &  &  &  & \tabularnewline
+\hline 
+\end{tabular}
+\par\end{flushleft}
+
+\medskip{}
+\medskip{}
+
+\noindent I certify that I have listed all the sources that I used
+to develop the solutions/codes to the submitted work.
+
+\noindent \emph{On my honor as an Aggie, I have neither given nor
+received any unauthorized help on this academic work}.
+
+\bigskip{}
+\bigskip{}
+
+\begin{tabular}{cccccc}
+Your Name  & ~~~~~~~~~~~~~~~~~~~~~~~~~~~ &  & ~~~~~~~~~~~~~~~~~~~~~ & Date  & ~~~~~~~~~~~~~~~~~~~~\tabularnewline
+\end{tabular}\pagebreak{}
+\begin{center}
+\textbf{\Large{}Assignment~3 (100 pts)}{\Large{} }{\Large\par}
+\par\end{center}
+
+\begin{center}
+\textbf{Program: Due March 29 at 11:59 pm }
+\par\end{center}
+
+\noindent \textbf{Objectives: Programming}
+
+Write a C++ class to create a binary search tree. Your program should
+empirically calculate the average search cost for each node in a tree
+and output a tree, level by level, in a text format.
+\begin{enumerate}
+\item \textbf{Programming (80 points)}.
+
+Write code for a Binary Search Tree implementation and submit it to
+Mimir. The BSTree class already has several functions that you can
+use in your own functions and \textbf{you may create additional helper
+functions if you find them convenient}. You must implement the following
+operations:
+\begin{itemize}
+\item Destructor: Deallocates the memory of the tree using the delete keyword
+on each node of the tree. This can be done in multiple ways (e.g.
+use a recursive function, BFS or DFS).
+\item Copy constructor \& assignment operator: given a BSTree object, create
+a copy of the tree without modifying the given tree. For the copy
+assignment operator, you must also check if you are trying to copy
+the tree into itself, in which case you do nothing, or if there is
+a tree in the destination and if so, delete it.
+\item Move constructor \& assignment operator: given a BSTree object, move
+the contents of the tree in $O(1)$ time, and empty the original tree.
+For the move assignment operator, you must also check if you are trying
+to move the tree into itself, in which case you do nothing, or if
+there is a tree in the destination and if so, delete it.
+\item Insert: This function adds a new node to the tree with the value given,
+increments the size of the tree, and returns a pointer to the new
+node. The new node must be given a search cost, which is the number
+of comparisons required for searching a node (i.e. the number of comparisons
+= the search cost for the node = $1+$ the depth of the node). Do
+not use the update\_search\_costs for this. You may assume that all
+the values inserted are unique.
+\item Search: This function returns a pointer to the node of the tree with
+the value given. If no node contains such value, return a null pointer.
+You may assume that all the values on the tree are unique.
+\item Update search costs: This function updates the search costs for all
+the nodes on the tree. The search cost is the number of comparisons
+required for searching a node (i.e. the number of comparisons = the
+search cost for the node = $1+$ the depth of the node). Do not call
+this function when inserting an element as this will hurt the time
+complexity of insertion.
+\item Inorder traversal: Traverse and print the nodes of the tree on an
+inorder fashion, i.e. first print the left subtree of a node, then
+the value of the node and finally the right subtree. If this is done
+correctly, it should display the values in ascending order. Use the
+output operator for nodes and add a single space between nodes and
+it should have no newlines. See the example below for reference.
+\item Level-by-level traversal: Traverse and print the nodes of a tree in
+a level by level fashion where each level of the tree is printed on
+a new line. Use the output operator for nodes and add a single space
+between nodes of the same level. See the example below for reference.
+\end{itemize}
+In addition to these functions, you must also ensure that there are
+no memory leaks and you must provide a makefile. This makefile should
+create an executable called ``run-trees'' and use the BSTree\_main.cpp
+and BSTree.pp source files. The files to be sumbitted to Mimir are:
+\begin{itemize}
+\item BSTree.cpp
+\item BSTree.h
+\item Makefile (The makefile must use BSTree\_main.cpp, but you should NOT
+include it in your Mimir submission. The final executable must be
+called ``run-trees'').
+\end{itemize}
+\end{enumerate}
+\textbf{Report (20 points)}
+
+Write a brief report and submit it to Canvas. The report should include
+the following sections:
+\begin{enumerate}
+\item A description of the assignment objective, how to compile and run
+your program, and an explanation of your program structure (i.e. a
+high level description of the functions or classes in your code).
+\item A brief description of the data structure you create (i.e. a theoretical
+definition of the data structure and the actual data arrangement in
+the classes).
+\item A description of the implementation of\textcolor{black}{{} (a) individual
+search cost and (b) average search cost. Analyze the time complexity
+of the functions that (a) calculate the individual search cost and
+(b) }sum up the search costs over all the nodes. The recurrences/runtime
+functions should be from your functions (insert() for an individual
+search cost).
+\item \textbf{Give an individual search cost in terms of }\textbf{\emph{$n$}}\textbf{
+using big-O notation}. Analyze and give the average search costs of
+a perfect binary tree and a linear binary tree using big-O notation,
+assuming that the following formulas are true (\emph{$n$} denotes
+the total number of input data). To be clear, part 3 asks you to analyze
+the running time of the functions implemented to compute the individual
+and average search cost, while here you must analyze the asymptotic
+behavior of the values of the search cost itself (Hint: depth of the
+tree affects the individual search cost.)
+
+Formula for perfect binary tree: $\sum_{d=0}^{\log_{2}(n+1)-1}2^{d}(d+1)\simeq(n+1)\cdot\log_{2}(n+1)-n$
+
+Formula for linear binary tree: $\sum_{d=1}^{n}d\simeq n(n+1)/2$
+
+where d represents the depth of the tree.
+\item Use BSTree\_main.cpp to run your code to analyze the data files provided.
+In case you are unable to compile and run code outside of Mimir, contact
+your TA for assistance.
+\begin{enumerate}
+\item The files \emph{1p}, \emph{2p}, ..., \emph{12p} contain $2^{1}-1$,
+$2^{2}-1$,..., and $2^{12}-1$ integers respectively. The integers
+make 12 \textbf{perfect binary trees} where all leaves are at the
+same depth. Calculate and record the average search cost for each
+perfect binary tree. 
+\item The files \emph{1r}, \emph{2}r, ..., \emph{12r} contain same number
+of integers as above. The integers are randomly ordered and make 12
+\textbf{random binary trees}. Calculate and record the average search
+cost for each tree. 
+\item The files \emph{1l}, \emph{2l}, ..., \emph{12l} contain same number
+of integers as above. The integers are in increasing order and make
+12 \textbf{linear binary trees}. Calculate and record the average
+search cost for each tree. 
+\item Include a table and a plot of the average search costs you obtain.
+The x axis should be the size of the tree and the y axis should be
+the average search cost. In your discussions of experimental results,
+compare the curves of search costs with your theoretical analysis
+that is derived above.
+\end{enumerate}
+\end{enumerate}
+\textbf{Examples:}
+
+Input data:
+\begin{lyxcode}
+5
+\begin{lyxcode}
+3
+
+9
+
+7
+
+\textcolor{black}{10}
+
+\textcolor{black}{11}
+\end{lyxcode}
+\textrm{Create a binary search tree and provide information about
+each node when you display the tree. }
+
+\begin{tabular}{cc}
+\texttt{Key} & \texttt{Search Time}\tabularnewline
+\texttt{5} & \texttt{1}\tabularnewline
+\texttt{3} & \texttt{2}\tabularnewline
+\texttt{9} & \texttt{2}\tabularnewline
+\texttt{7} & \texttt{3}\tabularnewline
+\texttt{10} & \texttt{3}\tabularnewline
+\texttt{11} & \texttt{4}\tabularnewline
+\end{tabular}
+
+\textcolor{black}{Total number of nodes is 6}
+
+\textrm{The inorder traversal for this particular tree is:}
+
+3{[}2{]} 5{[}1{]} 7{[}3{]} 9{[}2{]} \textcolor{black}{10{[}3{]} 11{[}4{]}}
+
+Here~The~format~of~each~node~is~value{[}search~time{]}
+
+Sum of the search cost over all the nodes in the tree is: $2+1+3+2{\color{red}{\color{black}+3+4=15}}$. Average
+search cost: ${\color{red}{\color{black}15/6=2.5}}$.
+
+Average search cost is \textcolor{black}{2.5}
+
+\textcolor{black}{Output the tree level-by-level to a file (missing
+elements are denoted by X):}
+
+\textcolor{black}{5{[}1{]}}
+
+\textcolor{black}{3{[}2{]} 9{[}2{]}}
+
+\textcolor{black}{X X 7{[}3{]} 10{[}3{]}}
+
+\textcolor{black}{X X X X X X X 11{[}4{]} }
+\end{lyxcode}
+\textbf{\textcolor{black}{Hints}}
+\begin{enumerate}
+\item \textcolor{black}{Besides using links/pointers to represent a binary
+search tree, you may store the binary tree in a vector. This implementation
+might be useful, especially for the printing of a tree level by level.}
+\item You can add your own recursive functions on the header file as long
+as you define them in the cpp file and you don't remove or change
+any of the functions that are defined already on the header.
+\item \textcolor{black}{You may use the std::queue and std::stack classes
+to perform BFS or DFS repectively}
+\item \textcolor{black}{The pseudocode here is one way of doing the level-by-level
+function. You can create your own version if you find it easier. }
+\begin{lyxcode}
+level\_by\_level(BinarySearchTree~T)
+
+~~~Queue~q~//~This~queue~contains~elements~from~a~level~and~its~children
+\begin{lyxcode}
+q.enqueue(T.root)
+
+elementsInLevel~=~1~//~Elements~in~the~current~level
+
+nonNullChild~=~false
+
+while~(elementsInLevel~\textgreater ~0)~do:
+
+~~~~TreeNode{*}~node~=~q.dequeue()
+
+~~~~elementsInLevel-{}-
+
+~~~~if~node~is~not~null:
+
+~~~~~~~~print~node
+
+~~~~~~~~enqueue~the~children~of~node~into~q
+
+~~~~~~~~if~at~least~one~child~is~not~null:
+
+~~~~~~~~~~nonNullChild~=~true
+
+~~~~else:
+
+~~~~~~~~print~'X'
+
+~~~~~~~~enqueue~null~//~these~nulls~represent~the~descendants~of~the~empty~node
+
+~~~~~~~~enqueue~null
+
+~~~~if~elementsInLevel~==~0~//~We~have~reached~the~end~of~the~current~level
+
+~~~~~~~~print~newline
+
+~~~~~~~~if~nonNullChild~==~true:~//~The~next~level~is~non-empty
+
+~~~~~~~~~~~~nonNullChild~=~false
+
+~~~~~~~~~~~~elementsInLevel~=~q.size
+\end{lyxcode}
+\end{lyxcode}
+\end{enumerate}
+\noindent \begin{flushleft}
+\texttt{\smallskip{}
+}
+\par\end{flushleft}
+\end{document}

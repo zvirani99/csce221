@@ -1,0 +1,2822 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\date{}
+\end_preamble
+\use_default_options false
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "times" "default"
+\font_sans "helvet" "default"
+\font_typewriter "courier" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 0
+\use_package esint 0
+\use_package mathdots 1
+\use_package mathtools 0
+\use_package mhchem 1
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 1in
+\topmargin 1in
+\rightmargin 1in
+\bottommargin 1in
+\headheight 0in
+\headsep 0in
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle empty
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+CSCE 221 Assignment 2 Cover Page
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+First Name
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+Last Name 
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+UIN
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+User Name 
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+E-mail address
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Please list all sources in the table below including web pages which you
+ used to solve or implement the current homework.
+ If you fail to cite sources you can get a lower number of points or even
+ zero, read more on Aggie Honor System Office website: 
+\family typewriter
+
+\begin_inset CommandInset href
+LatexCommand href
+target "http://aggiehonor.tamu.edu/"
+literal "false"
+
+\end_inset
+
+
+\family default
+
+\begin_inset VSpace defskip
+\end_inset
+
+
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align left
+\begin_inset Tabular
+<lyxtabular version="3" rows="10" columns="5">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Type of sources 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+People
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Web pages (provide URL) 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Printed material
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Other Sources 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+I certify that I have listed all the sources that I used to develop the
+ solutions/codes to the submitted work.
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\emph on
+On my honor as an Aggie, I have neither given nor received any unauthorized
+ help on this academic work
+\emph default
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="1" columns="6">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Your Name 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Date 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size larger
+CSCE 221 Assignment 2
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+Due Dates: Part-1 (Mimir only) March 8th/Part-2 (Mimir) and report (Canvas)
+ March 15th
+\end_layout
+
+\begin_layout Section*
+Objective
+\end_layout
+
+\begin_layout Standard
+This is an individual assignment which has three parts.
+ 
+\end_layout
+
+\begin_layout Itemize
+Part 1 involves implementation of a 
+\series bold
+doubly linked list
+\series default
+ and its templated version with the provided ADT and analyzing its complexity.
+ 
+\end_layout
+
+\begin_layout Itemize
+Part 2 involves implementation of a class 
+\series bold
+Record, 
+\series default
+and writing applications based on 
+\series bold
+doubly linked list
+\series default
+ 
+\end_layout
+
+\begin_layout Itemize
+Report
+\end_layout
+
+\begin_layout Section*
+Part 1 (30 points): Implementing Doubly Linked List - Due on March 8th
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Program Instructions
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+Download the program 
+\family typewriter
+Starter Code
+\family default
+ from canvas to get an access to two separate folders.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Doubly linked list for integers
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Contains a list node structure and associated functions.
+ Doubly linked lists of integers can be constructed using the structure
+ of a list node.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Most code is extracted from the lecture slides.
+ An exception structure is added to make it more useable.
+\end_layout
+
+\begin_layout Enumerate
+You need to complete the following functions in the 
+\family typewriter
+DLList.cpp
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+first
+\end_layout
+
+\begin_layout Enumerate
+last
+\end_layout
+
+\begin_layout Enumerate
+insert_first
+\end_layout
+
+\begin_layout Enumerate
+insert_last
+\end_layout
+
+\begin_layout Enumerate
+remove_first
+\end_layout
+
+\begin_layout Enumerate
+remove_last
+\end_layout
+
+\begin_layout Enumerate
+insert_before
+\end_layout
+
+\begin_layout Enumerate
+insert_after
+\end_layout
+
+\begin_layout Enumerate
+remove_before
+\end_layout
+
+\begin_layout Enumerate
+remove_after
+\end_layout
+
+\begin_layout Enumerate
+copy constructor
+\end_layout
+
+\begin_layout Enumerate
+copy assignment operator
+\end_layout
+
+\begin_layout Enumerate
+move constructor and move assignment 
+\end_layout
+
+\begin_layout Enumerate
+destructor
+\end_layout
+
+\begin_layout Enumerate
+output operator (outside the class)
+\end_layout
+
+\begin_layout Standard
+The functions vii-x insert a node with an integer or remove a node before/after
+ the current list node.
+\end_layout
+
+\begin_layout Standard
+Make sure the functions in xi.
+ and xii.
+ do a deep copy of the input list, that is, they have a real copy of each
+ node (not a reference/pointer).
+\end_layout
+
+\begin_layout Standard
+For remove functions throw exceptions if remove is called on empty list
+ or on header/trailer.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Type the following commands to compile the program.
+\end_layout
+
+\begin_deeper
+\begin_layout LyX-Code
+make clean
+\end_layout
+
+\begin_layout LyX-Code
+make
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+The main program includes examples of creating doubly linked lists, and
+ demonstrates how to use them.
+ Type the following command to execute.
+\end_layout
+
+\begin_deeper
+\begin_layout LyX-Code
+./run-dll
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate
+Templated DoublyLinkedList for general type
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Convert the doubly linked list in the part 1 to a template, so it creates
+ lists of other types, not only integer.
+\end_layout
+
+\begin_layout Enumerate
+Follow the instructions below:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\series bold
+IMPORTANT: Templates should be declared and defined in a 
+\family typewriter
+.h
+\family default
+ file.
+
+\series default
+ Move the content of 
+\family typewriter
+DLList.cpp
+\family default
+ and 
+\family typewriter
+DLList.h
+\family default
+ to 
+\family typewriter
+TemplatedDLList.h
+\family default
+ 
+\end_layout
+
+\begin_layout Enumerate
+Replace 
+\family typewriter
+int obj
+\family default
+ by 
+\family typewriter
+T obj
+\family default
+ in the class 
+\family typewriter
+DLListNode
+\family default
+ so list nodes store general type 
+\family typewriter
+T
+\family default
+ objects instead of integers.
+ Later, when a 
+\family typewriter
+DLListNode
+\family default
+ object is created, say, in the main function, 
+\family typewriter
+T
+\family default
+ can be specified as an 
+\family typewriter
+int
+\family default
+, a 
+\family typewriter
+string
+\family default
+ or a user-defined class.
+\end_layout
+
+\begin_layout Enumerate
+To use a general type 
+\family typewriter
+T
+\family default
+, and use 
+\family typewriter
+DLListNode
+\family default
+ and 
+\family typewriter
+DLList
+\family default
+ of the general type 
+\family typewriter
+T
+\family default
+, you must change each type declaration.
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Replace variable declaration, input type and output type of functions 
+\family typewriter
+int
+\family default
+ by the general type 
+\family typewriter
+T
+\family default
+, except for the 
+\family typewriter
+count
+\family default
+ variable.
+\end_layout
+
+\begin_layout Enumerate
+Replace variable declaration, input type and output type of functions 
+\family typewriter
+DLListNode
+\family default
+ by 
+\family typewriter
+DLListNode<T>.
+
+\family default
+ 
+\end_layout
+
+\begin_layout Enumerate
+Replace variable declaration, input type and output type of functions 
+\family typewriter
+DLList
+\family default
+ by 
+\family typewriter
+DLList<T>.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Assign the general default value 
+\family typewriter
+T()
+\family default
+ to 
+\family typewriter
+T obj
+\family default
+ of 
+\family typewriter
+DLListNode
+\family default
+, instead of the original 0 to 
+\family typewriter
+int obj
+\end_layout
+
+\begin_layout Enumerate
+To use the general type 
+\family typewriter
+T
+\family default
+ anywhere throughout the class 
+\family typewriter
+DLListNode
+\family default
+ and 
+\family typewriter
+DLList
+\family default
+, you must declare (add) 
+\family typewriter
+template <typename T>
+\family default
+ before classes and the member functions defined outside the class declaration
+ where 
+\family typewriter
+T
+\family default
+ is ever used
+\end_layout
+
+\begin_layout Enumerate
+In each member function signature, replace 
+\family typewriter
+DLList::
+\family default
+ by 
+\family typewriter
+DLList<T>::
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Type the following commands to compile the program.
+\end_layout
+
+\begin_deeper
+\begin_layout LyX-Code
+make clean
+\end_layout
+
+\begin_layout LyX-Code
+make
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+The main program includes examples of creating doubly linked lists of 
+\begin_inset Quotes eld
+\end_inset
+
+strings
+\begin_inset Quotes erd
+\end_inset
+
+, and demonstrates how to use them.
+ Type the following command to execute.
+\end_layout
+
+\begin_deeper
+\begin_layout LyX-Code
+./run-tdll
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate
+Submit 
+\series bold
+DLList.cpp
+\series default
+ and 
+\series bold
+TemplatedDLList.h 
+\series default
+to mimir under assignment 2 part 1
+\end_layout
+
+\begin_layout Enumerate
+There is no readme for part 1.
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+Part 2 (50 points): Application of Doubly Linked Lists - Due on March 15th
+\end_layout
+
+\begin_layout Subsection*
+Part 2.0 (20 points): Implementation of a class Record 
+\end_layout
+
+\begin_layout Enumerate
+Declare a class 
+\family typewriter
+Record 
+\family default
+for keeping information about a book.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+Declare class members for a book: 
+\series bold
+title
+\series default
+, 
+\series bold
+author's name
+\series default
+, 
+\series bold
+13-digit ISBN
+\series default
+, 
+\series bold
+publishing year
+\series default
+, and 
+\series bold
+edition number
+\series default
+.
+ ]
+\end_layout
+
+\begin_layout Standard
+Declare them as 
+\end_layout
+
+\begin_layout Enumerate
+title
+\end_layout
+
+\begin_layout Enumerate
+author
+\end_layout
+
+\begin_layout Enumerate
+ISBN
+\end_layout
+
+\begin_layout Enumerate
+year
+\end_layout
+
+\begin_layout Enumerate
+edition
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Outside the class define 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+input 
+\family typewriter
+operator>>
+\family default
+ to enter the record from the input file 
+\family typewriter
+Book.txt
+\family default
+.
+\end_layout
+
+\begin_layout Enumerate
+output 
+\family typewriter
+operator<<
+\family default
+ to print the record on screen.
+\end_layout
+
+\begin_layout Enumerate
+equal-to 
+\family typewriter
+operator==
+\family default
+ to compare two records by title, author's name and ISBN
+\end_layout
+
+\begin_layout LyX-Code
+  bool operator==(const Record& r1, const Record& r2) {
+\end_layout
+
+\begin_layout LyX-Code
+    /* complete the code here */
+\end_layout
+
+\begin_layout LyX-Code
+  }
+\end_layout
+
+\begin_layout Standard
+In a case when two records 
+\family typewriter
+r1
+\family default
+ and 
+\family typewriter
+r2
+\family default
+ have the same title, compare the author's name and ISBN.
+ The function returns true when title, authors and ISBN match; otherwise,
+ it returns false.
+ 
+\emph on
+
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+
+\emph on
+Reference
+\emph default
+: see pp.
+ 729-738 of B.
+ Stroustrup's 
+\begin_inset Quotes eld
+\end_inset
+
+
+\emph on
+Programming Principles and Practice Using C++
+\emph default
+.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\family typewriter
+Book.txt
+\family default
+: the input file contains unsorted book records in format given below (title,
+ author's name, 13-digit ISBN (dashes are not required), publishing year,
+ edition).
+ You can add empty lines between records.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout LyX-Code
+Harry Potter And The Chamber Of Secrets
+\end_layout
+
+\begin_layout LyX-Code
+J.
+ K.
+ Rowling
+\end_layout
+
+\begin_layout LyX-Code
+9780439064873
+\end_layout
+
+\begin_layout LyX-Code
+2000
+\end_layout
+
+\begin_layout LyX-Code
+1st edition
+\end_layout
+
+\begin_layout LyX-Code
+       
+\end_layout
+
+\begin_layout LyX-Code
+H is for Hawk
+\end_layout
+
+\begin_layout LyX-Code
+Helen Macdonald
+\end_layout
+
+\begin_layout LyX-Code
+9780802123411
+\end_layout
+
+\begin_layout LyX-Code
+2015
+\end_layout
+
+\begin_layout LyX-Code
+1st edition
+\end_layout
+
+\begin_layout LyX-Code
+...
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Test your class in the main function using input data from the file 
+\family typewriter
+Book.txt
+\family default
+.
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Part 2.1 (30 points): Library Management System
+\end_layout
+
+\begin_layout Itemize
+You should implement a library management system to store books.
+ The system stores each book title, author's name, 13-digit ISBN, publishing
+ year, and edition number.
+ It is possible to have the same title and author's name for a book if there
+ are more than one edition.
+ 
+\end_layout
+
+\begin_layout Itemize
+Your library management system should provide a friendly interface for users
+ to create a book database and search in this database.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+The user will be asked to input the title to start searching.
+ 
+\end_layout
+
+\begin_layout Itemize
+If the program does not find a book with the requested title, the user will
+ be asked to add this title to the database, and he/she needs to provide
+ all the required book information.
+\end_layout
+
+\begin_layout Itemize
+If more than one book have the same title and author's name, these records
+ will be displayed, and the user needs to decide which book edition to select.
+\end_layout
+
+\begin_layout Itemize
+Finally, the program will display the book.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+The Data Structure
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+To speed up the search in the library management system, the data will be
+ stored in a vector of 26 sorted doubly linked lists.
+ The sorting is done in alphabetical order with respect to the first letter
+ of the book title, a letter is from A to Z.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+For example, the eighth element of the vector, i.e.
+ the eighth doubly linked list, 
+\family typewriter
+v[7]
+\family default
+, corresponds to the letter 'H'.
+ I may contain, for instance, the following book records 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Quotes eld
+\end_inset
+
+
+\emph on
+H is for Hawk
+\emph default
+
+\begin_inset Quotes erd
+\end_inset
+
+, Helen Macdonald, 978-0802123411, 2015, 1st edition
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+\begin_inset Quotes eld
+\end_inset
+
+Harry Potter And The Chamber Of Secrets
+\emph default
+
+\begin_inset Quotes erd
+\end_inset
+
+, J.
+ K.
+ Rowling, 978-0439060000, 2000, 1st edition 
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+\begin_inset Quotes eld
+\end_inset
+
+Harry Potter And The Chamber Of Secrets
+\emph default
+
+\begin_inset Quotes erd
+\end_inset
+
+, J.
+ K.
+ Rowling, 978-0439060001, 2000, 2nd edition 
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Itemize
+Again, to speed up the search, each doubly linked list must be maintained
+ in sorted order by title, author name, and ISBN (in this order).
+ You can treat ISBN as a string.
+\end_layout
+
+\end_deeper
+\begin_layout Subsection*
+Submission
+\end_layout
+
+\begin_layout Itemize
+Submit 
+\series bold
+TemplatedDLList.h, Record.cpp, 
+\series default
+and 
+\series bold
+Library.cpp 
+\series default
+to mimir under assignment 2 part 2
+\end_layout
+
+\begin_layout Itemize
+There is no readme for part 2
+\end_layout
+
+\begin_layout Section*
+Report (20 points) - Due on March 15th
+\end_layout
+
+\begin_layout Standard
+Follow the report instructions found in the report folder (Path: ~
+\backslash
+PA2 Handout 2
+\backslash
+Assignment Guidelines
+\backslash
+Report), with the requirements below:
+\end_layout
+
+\begin_layout Itemize
+In the algorithm description section,
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+briefly describe class Record implementation and operator overloading and
+ their 
+\series bold
+time complexity analysis*
+\end_layout
+
+\begin_layout Itemize
+briefly describe the functions you implemented in Part 1 and their 
+\series bold
+time complexity analysis* 
+\end_layout
+
+\begin_layout Itemize
+briefly describe implementation of functions in the Part 2 and their 
+\series bold
+time complexity analysis*
+\series default
+ 
+\end_layout
+
+\begin_layout Itemize
+the average 
+\series bold
+complexity analysis*
+\series default
+ runtime for insert and search functions.
+ Assume that the average length of each linked list is the same.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+Complexity Analysis* – 
+\series default
+provide a running time function for 
+\family typewriter
+n
+\family default
+ records and express it in terms of big-O notation.
+\end_layout
+
+\begin_layout Itemize
+Include in the report the screenshots as the evidence of testing the functions
+ implemented in this assignment for correctness.
+\end_layout
+
+\begin_layout Itemize
+Submit Report to canvas
+\end_layout
+
+\end_body
+\end_document
